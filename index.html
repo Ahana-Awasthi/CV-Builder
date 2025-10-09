@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="out">
+    <!-- form start -->
+    <div id="big">
+        <div class="top">FILL YOUR DETAILS</div>
+        <form style="margin-top: 20px; font-size: 20px;">
+            &emsp;&emsp; First Name : <input type="text" id="name">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; E-mail:
+            <input type="email" id="email">
+            <br><br>
+            &emsp;&emsp; Last Name :
+            <input type="text" id="last">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Mobile : <input type="number"
+                id="mob"><br><br>
+            &emsp;&emsp; Language : <input type="text" id="lang">&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;Address :
+            <input type="text" id="add">
+            <br><br><br>
+            &emsp;&emsp; Education : <input type="text" id="q" placeholder="Qualification">&emsp;<input type="text"
+                id="u" placeholder="School / University">&emsp;<input type="text" id="y"
+                placeholder="Year of Completion"><br><br><br>
+            &emsp;&emsp; Experience : <input type="text" id="i" placeholder="Institution">&emsp;<input type="text"
+                id="p" placeholder="Position">&emsp;<input type="text" id="t" placeholder="Time Period"><br><br>
+        </form>
+        <button id="btn" onclick="gen_cv()">SUBMIT</button>
+    </div>
+    <!-- form end -->
+
+    <!-- cv start -->
+    <div id="cv">
+        <div id="left">
+            <div id="l-top"><img src="customercare.png" alt=""></div>
+            <div id="l-btm">
+                <h2>Contact</h2>
+                <h3 id="m">.</h3>
+                <h3 id="em">.</h3>
+                <h3 id="a">.</h3>
+
+                <h2 style="margin-top: 20px;">Languages</h2>
+                <h3 id="lang1">.</h3>
+
+            </div>
+        </div>
+        <div id="right">
+            <div id="names">
+                <div id="f"> first</div>
+                <div id="l"> last</div>
+            </div>
+            <div id="edu">
+                <h1>Education</h1>
+                <div style="border-left: 3px solid; padding: 10px 30px; font-size: 24px;margin-top: 30px;">
+                    <div id="y1">year</div>
+                    <div id="u1">uni</div>
+                    <div id="q1">q</div>
+                </div>
+                <div></div>
+            </div>
+            <div id="edu">
+                <h1>Experience</h1>
+                <div style="border-left: 3px solid; padding: 10px 30px; font-size: 24px;margin-top: 30px;">
+                    <div id="i1">year</div>
+                    <div id="p1">uni</div>
+                    <div id="t1">q</div>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!-- cv end -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
